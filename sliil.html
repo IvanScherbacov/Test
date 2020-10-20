@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My HTML</title>
+    <script>
+		function changeBackground() {
+			let color = document.body.style.backgroundColor;
+			let img = document.body.picture;
+			if (color === "palegreen") {
+				color = "coral";
+				img = 56;
+				
+			} else {
+				color = "palegreen";
+				 
+			}
+			document.body.style.backgroundColor = color;
+		}
+	</script>
+  </head>
+  <body style="background-color: palegreen;">
+    <p>Привет! Это мой первый сайт на курсе от SkillFactory!</p>
+    <button onclick="changeBackground()" 
+		style="width: 200px; height: 50px; background-color: deepskyblue; font-size: 20px;">
+		Нажми меня!
+		<img src="https://fsb.zobj.net/crop.php?r=1QtIdqalV4go_ArZizuhedGVgOZQMSwNGwdGwIYHZUmX_RVJLaAFcbutexkxz-wQ07O2yVKbqPdya3eudjrLQKaqhuTusFUdhPCO7Ehe6H0mAffKE-Par3x6IcnAgOdjEDi7_fOrschQfuQQ">;
+	</button>
+    <h1 style="color: coral;"> Вот тут будет картинка машины </h1>
+  </body>
+</html>
